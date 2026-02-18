@@ -1,0 +1,12 @@
+{
+  "name": "neurbit-support-bot",
+  "version": "1.0.0",
+  "description": "NEUR🪙BIT Support Bot for Telegram",
+  "main": "api/support-bot.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
