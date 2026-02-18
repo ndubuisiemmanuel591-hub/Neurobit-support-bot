@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/support-bot.js": {
+      "maxDuration": 10
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/support-bot.js"
+    }
+  ]
+}
